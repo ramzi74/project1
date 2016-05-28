@@ -1,0 +1,26 @@
+
+1-Installing latest version on Mac:
+——————————————————
+	http://git-scm.com/download/mac
+OR from Terminal:
+$\> ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$\> brew install git
+$\> export PATH=/usr/local/bin:$PATH
+$\> git --version ..//and you will see: git version <latest version>
+$\> 
+then later.. 
+$\> brew upgrade git
+$\> 
+
+2- Setting up Git:
+——————————————————
+$> git config --global user.name "YOUR NAME"
+$> git config --global user.email "YOUR EMAIL ADDRESS"
+$> git config --global color.ui true
+$> git config --list
+
+3- USING GIT:
+—————————————
+$> git init <project name>
+$> cd <project name>
+$> 
